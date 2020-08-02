@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   // onChanged: (val) => amountInput = val,
                 ),
                 FlatButton(
-                  child: Text('Add Transaction'),
+                  child: Text('Add Counter'),
                   textColor: Colors.purple,
                   onPressed: () =>_addNewCounter(titleController.text,int.parse(countController.text)),
                 ),
